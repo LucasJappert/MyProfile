@@ -234,13 +234,13 @@ body.scale-effect .btn-holder .btn-play{transform:scale(28);-webkit-transform:sc
 #portfolios #portfolios-card .tab-content .grid figure figcaption > a{z-index:1000;text-indent:200%;white-space:nowrap;font-size:0;opacity:0;}
 #portfolios #portfolios-card .tab-content .grid figure figcaption::before{pointer-events:none;}
 #portfolios #portfolios-card .tab-content .grid figure figcaption::after{pointer-events:none;}
-#portfolios #portfolios-card .tab-content .grid figure h2{word-spacing:-0.15em;font-weight:300;font-size:18px;margin:0;}
+#portfolios #portfolios-card .tab-content .grid figure h2{word-spacing:0.3em;font-weight:300;font-size:18px;margin:0;}
 #portfolios #portfolios-card .tab-content .grid figure h2 span{font-weight:800;}
 #portfolios #portfolios-card .tab-content .grid figure h2 i{display:block;padding:9px;margin-top:24px;font-size:48px;}
 #portfolios #portfolios-card .tab-content .grid figure p{margin:0;letter-spacing:1px;font-size:56.5%;}
 @media screen and (min-width:540px) and (max-width:766px){#portfolios #portfolios-card .tab-content .grid{max-width:50%;}
 }
-#portfolios #portfolios-card .tab-content figure.port-effect-up figcaption::before{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.7);content:'';opacity:0;-webkit-transform:translate3d(0, 50%, 0);transform:translate3d(0, 50%, 0);-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;}
+#portfolios #portfolios-card .tab-content figure.port-effect-up figcaption::before{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0, 0, 0, 0.95);content:'';opacity:0;-webkit-transform:translate3d(0, 50%, 0);transform:translate3d(0, 50%, 0);-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;}
 #portfolios #portfolios-card .tab-content figure.port-effect-up h2{position:absolute;top:55%;left:0;width:100%;color:rgba(72, 76, 97, 0.22);-webkit-transition:-webkit-transform 0.35s, color 0.35s;transition:transform 0.35s, color 0.35s;-webkit-transform:translate3d(0, -50%, 0);transform:translate3d(0, -50%, 0);}
 #portfolios #portfolios-card .tab-content figure.port-effect-up p{-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;position:absolute;bottom:0;left:0;padding:2em;width:100%;opacity:0;-webkit-transform:translate3d(0, 10px, 0);transform:translate3d(0, 10px, 0);color:#7b7b7b;}
 #portfolios #portfolios-card .tab-content figure.port-effect-up:hover h2{color:#008ECC;-webkit-transform:translate3d(0, -50%, 0) translate3d(0, -40px, 0);transform:translate3d(0, -50%, 0) translate3d(0, -40px, 0);}
