@@ -58,14 +58,14 @@
             var addButtonIcon = '#port-add-icon';
             var otherOption = 'a.cate';
             var allOption = 'a#all-sample';
-            $(afterFirst).addClass('hide');
-            $(addButton).addClass('x');
-            $(allOption).on('click', function() {
-                $(addButton).removeClass('hide').addClass('x');
-                $(all).removeClass('tab-pane');
-                $(afterFirst).addClass('hide');
-                $(addButtonIcon).addClass('fa-plus').removeClass('fa-arrow-up');
-            });
+            // $(afterFirst).addClass('hide');
+            // $(addButton).addClass('x');
+            // $(allOption).on('click', function() {
+            //     $(addButton).removeClass('hide').addClass('x');
+            //     $(all).removeClass('tab-pane');
+            //     $(afterFirst).addClass('hide');
+            //     $(addButtonIcon).addClass('fa-plus').removeClass('fa-arrow-up');
+            // });
             $(otherOption).on('click', function() {
                 $(addButton).addClass('hide x');
                 $(afterFirst).removeClass('hide');
@@ -372,7 +372,7 @@
             initNav();
             initSmoothScroll();
             initScrollToTop();
-            initPortfolio();
+            // initPortfolio();
             initSkills();
             initClientsSliders();
             initVideoPlayAndClose();
