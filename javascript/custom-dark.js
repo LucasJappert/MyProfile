@@ -138,8 +138,6 @@
             initScrollToTop();
             // initPortfolio();
             initSkills();
-            initClientsSliders();
-            initVideoPlayAndClose();
             // initMail();
         }, 100);
     });
@@ -169,3 +167,8 @@
         });
     });
 })(jQuery);
+
+// var _Prueba = ["asd1", "asd2"];
+// _Prueba[100] = "asd101";
+// console.log(_Prueba.length);
+// console.log(_Prueba[99]);
