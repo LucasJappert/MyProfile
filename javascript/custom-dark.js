@@ -1,5 +1,5 @@
 (function($) {
-    "use strict";
+    // "use strict";
     jQuery(document).on('ready', function() {
         function initNav() {
             $('div.toggle-normal').on('click', function() {
@@ -138,8 +138,6 @@
             initScrollToTop();
             // initPortfolio();
             initSkills();
-            initClientsSliders();
-            initVideoPlayAndClose();
             // initMail();
         }, 100);
     });
@@ -152,20 +150,25 @@
         });
         var commonCards = '#port-add-icon,#map-card,.interest-icon-even,.interest-icon,' + '.timeline-dot,.timeline-content,#add-more,#skills-card,#testimonials-card,' + '#portfolios-card,#interest-card,#p-one,#p-two,#p-three,#blog-card,#contact-card,.section-title img';
         sr.reveal(commonCards, {
-            duration: 1100
+            duration: 1000
         });
         sr.reveal('#about-card,.map-label', {
-            duration: 1400,
+            duration: 1000,
             delay: 500
         });
         sr.reveal('#v-card-holder', {
-            duration: 1400,
+            duration: 1000,
             distance: '150px'
         });
-        sr.reveal('.skillbar-bar', {
-            duration: 1800,
-            delay: 300,
-            distance: '0'
-        });
+        // sr.reveal('.skillbar-bar', {
+        //     duration: 1000,
+        //     delay: 300,
+        //     distance: '0px'
+        // });
     });
 })(jQuery);
+
+// var _Prueba = ["asd1", "asd2"];
+// _Prueba[100] = "asd101";
+// console.log(_Prueba.length);
+// console.log(_Prueba[99]);

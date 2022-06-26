@@ -6782,16 +6782,19 @@ footer.page-footer .footer-copyright {
 
 .card .card-content {
     padding: 20px;
-    border-radius: 0 0 2px 2px
+    border-radius: 0 0 2px 2px;
+    font-size:1.3rem;
 }
 
 .card .card-content p {
     margin: 0;
-    color: inherit
+    /* color: inherit; */
+    text-align: left;
 }
 
 .card .card-content .card-title {
-    line-height: 48px
+    line-height: 48px;
+    font-size:1.9rem;
 }
 
 .card .card-action {

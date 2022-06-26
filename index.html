@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Lucas Jappert">
-    <meta name="description" content="Hello there! I'm Lucas and welcome to my profile! Here you will be able to know my skills and knowledge" />
-    <meta name="keywords" content="">
+    <meta name="description" content="Hello there! Welcome to my profile, I'm a full stack developer, and lately i'm so much passionate about vuejs! Here you will be able to know my skills and knowledge." />
+    <meta name="keywords" content="Javascript, HTML, CSS, VueJS, frontend">
 
 
     <title>Lucas Jappert | Full Stack Developer</title>
@@ -46,11 +46,13 @@
 
     <!-- CUSTOM STYLE -->
     <link href="stylesheets/style_dark_dark.css" id="switch_style" rel="stylesheet">
+    
+    <link href="./stylesheets/my-styles.css" rel="stylesheet">
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Lucas Jappert | Full Stack Developer" />
-    <meta property="og:description" content="Hello there! I'm Lucas and welcome to my profile! Here you will be able to know my skills and knowledge" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/LucasJappert/MyProfile/master/images/backgrounds/ogImage.PNG?v=1" />
+    <meta property="og:description" content="Hello there! Welcome to my profile, I'm a full stack developer, and lately i'm so much passionate about vuejs! Here you will be able to know my skills and knowledge." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/LucasJappert/myprofile/Version1/images/backgrounds/ogImage3.PNG?v=1" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHH7F3E3P7"></script>
@@ -142,9 +144,6 @@
                         <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
                         <div class="slant"></div>
 
-                        <!--EMPTY PLUS BUTTON-->
-                        <!--<div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>-->
-
                     </div>
                     <!--VIDEO CLOSE BUTTON-->
                     <div id="close-btn" class="btn-floating icon-close">
@@ -161,29 +160,28 @@
 
                         <!-- CONTACT INFO -->
                         <div class="infos">
-                            <ul class="profile-list">
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">email</i></span>
-                                    <span class="content"><a href="" class="__cf_email__">lucasnicolasjappert@gmail.com</a></span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">cake</i></span>
-                                    <span class="content">05/01/1989 (32 years old)</span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="fa fa-skype" aria-hidden="true"></i></span>
-                                    <span class="content"><a href="" class="__cf_email__">live:lucasnicolasjappert</a></span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">phone</i></span>
-                                    <span class="content">+54 3492 412021</span>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="title"><i class="material-icons">place</i></span>
-                                    <span class="content">Rafaela, Santa Fe, Argentina</span>
-                                </li>
-
-                            </ul>
+                            <div class="RenglonVar">
+                                <span><span class="Color1">const</span> <span class="Color3"> myProfile</span> = <span class="Color4">{</span> </span>
+                            </div>
+                            <div class="RenglonVar">
+                                <span class="Color5">email:</span>
+                                <span class="Color6">"lucasnicolasjappert@gmail.com"</span>,
+                            </div>
+                            <div class="RenglonVar">
+                                <span class="Color5">birth:</span>
+                                <span class="Color6">"05/01/1989"</span>,
+                            </div>
+                            <div class="RenglonVar">
+                                <span class="Color5">phone:</span>
+                                <span class="Color6">"+54 3492 412021"</span>,
+                            </div>
+                            <div class="RenglonVar">
+                                <span class="Color5">place:</span>
+                                <span class="Color6">"Rafaela, Argentina"</span>
+                            </div>
+                            <div class="RenglonVar">
+                                <span class="Color4">}</span>;
+                            </div>
                         </div>
 
                         <!--LINKS-->
@@ -194,16 +192,6 @@
                             <!-- GITHUB-->
                             <a target="_blank" href="https://github.com/LucasJappert/" class="social btn-floating blue"><i
                                     class="fa fa-github"></i></a>
-                            <!-- GOOGLE+-->
-                            <!-- <a href="#" class="social  btn-floating red"><i
-                                    class="fa fa-google-plus"></i></a> -->
-                            <!-- INSTAGRAM-->
-                            <a target="_blank" href="https://www.instagram.com/lucasjappert/" class="social  btn-floating orange darken-3"><i
-                                    class="fa fa-instagram"></i></a>
-                            <!-- FACEBOOK-->
-                            <a target="_blank" href="https://www.facebook.com/GringoRamona/" id="first_one"
-                               class="social btn-floating indigo"><i
-                                    class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -223,15 +211,24 @@
                     <div class="card-content">
                         <!-- ABOUT PARAGRAPH -->
                         <p>
-                            Hello! I’m Lucas Jappert. Senior Web Developer with over 14 years of experience specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS, CSS3, SASS, LESS, JSON, JavaScript, JQuery, Vue JS, Firebase, SQL Server, .NET. Strong background in management and leadership.
+                            Hello there!!! 👋 <br>
+                            My name is <a href="https://github.com/LucasJappert" target="_blank" class="high-light-about">Lucas Jappert</a>.
+                            My career started around 2008 and I always liked working on the backend as well as the frontend. <br>
+                            Although there are many technologies that I have worked with, today I am fascinated with <span class="high-light-about">javascript</span> and <span class="high-light-about">typescript</span>, using <span class="high-light-about">Vuejs</span> for everything that involves the frontend and <span class="high-light-about">nodejs + express</span> for the backend. <br>
+                            I believe that javascript has always been a very powerful tool with which any type of application can be created (desktop, mobile, API, browser extensions, etc.), and that it surely still has a great future.
+                            Regarding my personality, I am a person who can adapt to any type of work, as well as bring great values and knowledge to the team.
                         </p>
+                        <!-- <p>
+                            Hello! I'm <a href="https://github.com/LucasJappert" target="_blank"><strong>Lucas Jappert</strong></a>. Senior Web Developer with over 14 years of experience specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS, CSS3, SASS, LESS, JSON, JavaScript, JQuery, Vue JS, Firebase, SQL Server, .NET. Strong background in management and leadership.
+                            Lately I have been working on numerous applications made with <u> <strong>Vuejs</strong> </u>, I am fascinated with it!
+                        </p> -->
                     </div>
 
                     <!-- BUTTONS -->
                     <div id="about-btn" class="card-action">
                         <div class="about-btn">
                             <!-- DOWNLOAD CV BUTTON -->
-                            <a href="#" class="btn waves-effect">Download CV</a>
+                            <a href="resources/NuevoCV2021.pdf" target="_blank" class="btn waves-effect">Download CV</a>
                             <!-- CONTACT BUTTON -->
                             <!-- <a href="#contact" class="btn waves-effect">Contact Me</a> -->
                         </div>
@@ -264,7 +261,12 @@
                             <div class="CajaSkill fLeft">
                                 <!-- Front -->
                                 <div class="skills-title">
-                                    <h6 class="text-center">Front</h6>
+                                    <h6 class="text-center">Frontend</h6>
+                                </div>
+                                <div class="skillbar" data-percent="100%">
+                                    <div class="skillbar-title"><span>Vue.js 2 y 3</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
                                 <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>HTML5</span></div>
@@ -277,39 +279,34 @@
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
                                 <div class="skillbar" data-percent="100%">
-                                    <div class="skillbar-title"><span>JS, Jquery</span></div>
+                                    <div class="skillbar-title"><span>Javascript/Typescript</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
                                 <div class="skillbar" data-percent="100%">
-                                    <div class="skillbar-title"><span>Vue</span></div>
+                                    <div class="skillbar-title"><span>PWA (service-worker)</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
-                                    <div class="skillbar-title"><span>PWA (service-worker)</span></div>
+                                <div class="skillbar" data-percent="100%">
+                                    <div class="skillbar-title"><span>SOCKETS.IO</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
                                 <!-- <div class="skillbar" data-percent="80%">
                                     <div class="skillbar-title"><span>AMP</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">80%</div>
                                 </div> -->
-                                <div class="skillbar" data-percent="50%">
-                                    <div class="skillbar-title"><span>React</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">50%</div>
-                                </div>
-                                <div class="skillbar" data-percent="50%">
-                                    <div class="skillbar-title"><span>SOCKETS.IO</span></div>
-                                    <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">50%</div>
-                                </div>
                                 <div class="skillbar" data-percent="70%">
                                     <div class="skillbar-title"><span>PHASER 3</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="50%">
+                                    <div class="skillbar-title"><span>React</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">50%</div>
                                 </div>
                                 
                             </div>
@@ -317,27 +314,27 @@
                             <div class="CajaSkill fLeft">
                                 <div class="skills-title">
                                     <!-- Back -->
-                                    <h6 class="text-center">Back</h6>
+                                    <h6 class="text-center">Backend</h6>
                                 </div>
                                 <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>.NET (C#, VB)</span></div>
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
+                                <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>Node.js</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
+                                <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>SQL Server</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="90%">
+                                <div class="skillbar" data-percent="80%">
                                     <div class="skillbar-title"><span>Firebase</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">90%</div>
+                                    <div class="skill-bar-percent">80%</div>
                                 </div>
                             </div>
 
@@ -356,10 +353,15 @@
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
+                                <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>SQL Server Management Studio</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">100%</div>
+                                </div>
+                                <div class="skillbar" data-percent="100%">
+                                    <div class="skillbar-title"><span>Azure DevOps</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
                                 <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>Trello</span></div>
@@ -414,15 +416,15 @@
                                     <div class="skillbar-bar"></div>
                                     <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
+                                <div class="skillbar" data-percent="100%">
                                     <div class="skillbar-title"><span>Creativity</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">100%</div>
                                 </div>
-                                <div class="skillbar" data-percent="95%">
+                                <div class="skillbar" data-percent="90%">
                                     <div class="skillbar-title"><span>English - Read and write</span></div>
                                     <div class="skillbar-bar"></div>
-                                    <div class="skill-bar-percent">95%</div>
+                                    <div class="skill-bar-percent">90%</div>
                                 </div>
                                 <div class="skillbar" data-percent="50%">
                                     <div class="skillbar-title"><span>English - Listen and talk</span></div>
@@ -713,6 +715,42 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- SBI -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>F</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Full Stack Developer</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>SBI Technology - <a target="_blank" href="https://www.sbi-technology.com/">https://www.sbi-technology.com/</a></small>
+                            </h6>
+                            <h6>
+                                <small>2021 - At the moment</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            In recent years I have started to take on a role of team leader, dealing mainly with:
+                            <ul>
+                                <li>- Taking requirements with the client.</li>
+                                <li>- Coach team members.</li>
+                                <li>- Develop team strengths and improve weaknesses.</li>
+                                <li>- Identify team goals and evaluate team progress.</li>
+                                <li>- Resolve conflict.</li>
+                                <li>- Organize team initiatives.</li>
+                                <li>- Organizing and tracking tasks in Trello.</li>
+                                <li>- And doing front and back developments too (mainly front).</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
@@ -881,86 +919,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--==========================================
-             TESTIMONIALS AND CLIENTS
-===========================================-->
-<section id="testimonials" class="section" style="display:none;">
-    <div class="container">
-        <div class="section-title">
-            <h4 class="text-uppercase text-center"><img src="images/icons/handshake.png" alt="demo">Testimonials</h4>
-        </div>
-        <div id="testimonials-card" class="row card">
-            <div class="col-md-12 col-xs-12">
-
-                <!-- SLIDER STRUCTURE -->
-                <div id="clients-slider"
-                     class="swiper-container swiper-container-clients">
-                    <div class="swiper-wrapper">
-                        <!-- SLIDE ONE -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-1.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- SLIDE TWO -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-2.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- SLIDE THREE -->
-                        <div class="swiper-slide">
-                            <div class="col-md-12">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center-block">
-                                    <img alt="client-image" class="center-block" src="images/clients/client-3.png">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote>
-                                    I work with John on several web development projects and I find him to be extremely
-                                    creative and a technical Front End Developer. Jone expertise involves building
-                                    complex
-                                    Responsive Design layouts using HTML 5, CSS3, and JavaScript.
-                                    <cite>Mike, CEO, IT World.</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-clients"></div>
-                </div>
             </div>
         </div>
     </div>
