@@ -16,7 +16,6 @@ html, body{margin:0;padding:0;outline:0;display:block;font-family:'Roboto', sans
 }
 h1, h2, h3, h4, h5, h6{font-family:'Raleway', sans-serif;}
 h4{font-size:2.18rem;line-height:110%;margin:1.14rem 0 0.912rem 0;}
-p, a, li, label, input, blockquote, cite, div{font-family:'Muli', sans-serif;}
 p{color:#757575;}
 a{color:#7b7b7b;}
 a:hover{color:#00B2FF;text-decoration:none;}
@@ -34,11 +33,17 @@ video{border:3px solid black;}
 .hide-overflow{overflow:hidden !important;}
 .toast{background-color:#008ECC;}
 .card{position:relative;background-color:#282828;transition:box-shadow .25s;-webkit-transition:box-shadow .25s;border-radius:0 !important;margin:8px 0;}
-.card .card-content{padding:20px 40px;border-radius:0 0 2px 2px;overflow: hidden;}
+.card .card-content{
+    padding:20px 40px;border-radius:0 0 2px 2px;overflow: hidden;
+    font-size:1.3rem;
+}
 @media (max-width:999px){
     .card .card-content{padding:20px 20px;}
 }
-.card .card-content p{margin:0;color:inherit;text-align:center;}
+.card .card-content p{
+    margin:0;color:inherit;
+    text-align: left;
+}
 .modal{padding-right:0 !important;padding-left:0 !important;}
 .modal .modal-content{border-radius:0 !important;background-color:#282828;color:#7b7b7b;}
 .modal .modal-content .modal-body{position:relative;padding:0 40px;text-align:justify;}
@@ -135,7 +140,7 @@ body.scale-effect .btn-holder .btn-play{transform:scale(28);-webkit-transform:sc
 #v-card-holder #v-card .info-headings{max-width:514px;}
 #v-card-holder #v-card .info-headings h4{display:block;width:100%;font-weight:900;color:#7b7b7b;text-shadow:2px 2px 4px rgba(0, 0, 0, 0.29);}
 #v-card-holder #v-card .info-headings h6{display:block;width:100%;font-weight:300;margin-top:-10px;margin-bottom:30px;font-size:1.6em;color:#7b7b7b;text-shadow:2px 2px 4px rgba(0, 0, 0, 0.29);}
-#v-card-holder #v-card .infos{width:100%; display:inline-block; font-family: 'Muli', sans-serif;box-sizing:border-box; max-width:100%;}
+#v-card-holder #v-card .infos{width:100%; display:inline-block;box-sizing:border-box; max-width:100%;}
 #v-card-holder #v-card .infos .profile-list .title{display:block;float:left;color:#7b7b7b;line-height:26px;height:26px;}
 #v-card-holder #v-card .infos .profile-list .title i{font-size:23px;}
 #v-card-holder #v-card .infos .profile-list .title .fa{padding-left:2px;}
